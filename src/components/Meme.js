@@ -1,5 +1,5 @@
 import memeData from "../assets/memeData";
-import { useState, setState } from "react";
+import { useState } from "react";
 
 const Meme = () => {
   const [memeImage, setMeme] = useState("https://i.imgflip.com/30b1gx.jpg");
@@ -9,8 +9,7 @@ const Meme = () => {
     const randomNumber = Math.floor(Math.random() * memeArray.length);
 
     setMeme(() => {
-      const newMeme = memeArray[randomNumber].url;
-      return newMeme;
+      return memeArray[randomNumber].url;
     });
   };
 
