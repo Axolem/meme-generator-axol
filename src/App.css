@@ -79,4 +79,11 @@ button {
   margin: auto;
   border-radius: 2px;
   margin-bottom: 55px;
+  text-align: center;
+}
+
+.meme {
+  height: 268px;
+  max-width: 477px;
+  margin: 0 auto;
 }
